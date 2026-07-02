@@ -1,0 +1,9 @@
+spring:
+  graphql:
+    graphiql:
+      enabled: false
+
+management:
+  endpoint:
+    health:
+      show-details: always

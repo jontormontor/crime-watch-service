@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/crime_info_service
+  graphql:
+    graphiql:
+      enabled: true
+
+management:
+  endpoint:
+    health:
+      show-details: always
